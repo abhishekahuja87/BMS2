@@ -1,0 +1,71 @@
+Bookmyshow UI
+ - View Movies running 
+ - View Theatres showing specific Movie
+ - View Showtimes for a specific Movie in a specific Theatre in any given date
+ - View Seat layout for a specific Movie in a Specitic Theatre for a given time-slot
+ - Book/Lock seats for a specific Movie in a Specitic Theatre for a given time-slot (Phone, Email, Payment)
+ - View Booking code
+ 
+Backend
+ - DB
+ Movie
+  - MovieId
+  - Name
+  - Language
+  - Trailer Link
+  - Thumbnail Image
+  - Overview
+  - ContentRating
+ 
+Theatre 
+  - TheatreId
+  - Name
+  - Location
+
+Audi
+ - AudiId
+ - TheatreId
+ - AudiNumber
+ - SeatMatrix : A1-20, B1-20, C1-20, D1-18, E1-18
+ - TotalSeats
+ 
+Seats (NULLL- NA)
+ - AudiId
+ - A1
+ - A2
+ - A3
+ - A4
+ - A5....Z100
+
+ShowTimes
+ - ShowId
+ - MovieId
+ - TheatreId
+ - AudiId
+ - ShowTime
+ - TicketCost
+ 
+ CurrentSeats
+ - ShowId
+ - A1
+ - A2
+ - A3
+ - A4
+ - A5
+
+Bookings
+ - BookingId 
+ - ShowId
+ - UserId
+ - BookingCode 
+ - NumberOfTickets
+ - TotalAmountPaid
+
+
+Users
+ - UserId
+ - Phone
+ - Email
+ - Password
+ 
+ 

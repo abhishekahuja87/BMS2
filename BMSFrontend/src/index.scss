@@ -1,0 +1,23 @@
+@import "./css-variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-grey1);
+}
+
+// NAVBAR STYLE START
+.navbar {
+  height: 53px;
+  background-color: black;
+  padding: 10px 15px;
+  width: 100%;
+
+  
+}
+// NAVBAR STYLE END
+.movies-acc {
+  margin: 10px auto;
+  width: 40%;
+}

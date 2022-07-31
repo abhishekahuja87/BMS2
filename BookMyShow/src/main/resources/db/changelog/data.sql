@@ -1,0 +1,1 @@
+INSERT INTO movie (name) VALUES ('Dark Knight');

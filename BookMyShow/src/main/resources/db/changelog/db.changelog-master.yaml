@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - include:
+      file: data.sql
+      dbms: "mysql"
+      relativeToChangelogFile: true
+      endDelimiter: ;
+      splitStatements:  true
+      stripComments:  true
